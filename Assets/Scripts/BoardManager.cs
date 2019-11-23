@@ -9,8 +9,8 @@ public class BoardManager : MonoBehaviour {
     public List<float> rangeEnds;
     public List<GameObject> tiles;      // Matrix of boardHeight * boardWidth tiles
 
-    private int boardWidth = 10;
-    private int boardHeight = 10;
+    private int boardWidth = 168;
+    private int boardHeight = 50;
     private float rangeEnd = 1.0f;
 
 void Awake() {
