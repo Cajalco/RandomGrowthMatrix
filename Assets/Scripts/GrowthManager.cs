@@ -12,7 +12,7 @@ public class GrowthManager : MonoBehaviour {
     private int correspondingTile;
 
     private float growthModifier = 1.0f;
-    private float colorChangeModifier = .02f;
+    private float colorChangeModifier = .25f;
     private int growthSpeed = 1;
     private int frameCount = 0;
 
