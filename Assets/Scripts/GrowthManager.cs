@@ -11,8 +11,8 @@ public class GrowthManager : MonoBehaviour {
     private float randomGrowthValue;
     private int correspondingTile;
 
-    private float growthModifier = 1.0f;
-    private float colorChangeModifier = .25f;
+    private float growthModifier = 0.5f;
+    private float colorChangeModifier = .02f;
     private int growthSpeed = 1;
     private int frameCount = 0;
 
@@ -31,7 +31,7 @@ public class GrowthManager : MonoBehaviour {
             for (int i = 0; i < tileCount / 50; ++i) {
                 grow();
             }
-            frameCount = -1;
+            frameCount = 0;
         }
         frameCount++;
     }
